@@ -12,7 +12,7 @@ The first phase of the interpreter for cool  is lexical analysi.
 
 -press Ctrl+Shift+G
 
-### 1)Lexical Analysis:
+# 1)Lexical Analysis:
 
 Introduction :
 
@@ -40,7 +40,7 @@ More concisely, we can use regular expressions:
     TSpec  = '+''+' | '+' | ...For more info, please check For this link: http://www.cse.chalmers.se/edu/year/2009/course/TIN321_Proglang/lectures/proglang-04.html
 
 
-### 2)Parser :
+# 2)Parser :
 
 he final parsing stage in which the meaning and implications of the validated expression are determined and necessary actions are taken.
 A parser's main purpose is to determine if input data may be derived from the start symbol of the grammar. If yes, then in what ways can this input data be derived? This is achieved as follows:
