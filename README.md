@@ -38,7 +38,10 @@ More concisely, we can use regular expressions:
     IdChar = Letter | Digit
     TKey   = 'i' 'f' | 'e' 'l' 's' 'e' | ...
     TSpec  = '+''+' | '+' | ...For more info, please check For this link: http://www.cse.chalmers.se/edu/year/2009/course/TIN321_Proglang/lectures/proglang-04.html
+    
+### good result :
 
+![](https://github.com/asmaa122281/compiler-project/blob/master/good.cl-lex.jpeg)
 
 # 2)Parser :
 
@@ -60,5 +63,11 @@ A parser's main purpose is to determine if input data may be derived from the st
 2)Test cases good.cl and bad.cl. The first should parse correctly and yield an abstract syntax tree. The second should contain an error.
 3) A plain ASCII text file called readme.txt describing your design decisions and choice of test cases. A few paragraphs should suffice.
  
- 
+ ### Test cases good.cl and bad.cl. The first should parse correctly and yield an abstract syntax tree. The second should contain an error.
+
+![](https://github.com/asmaa122281/compiler-project/blob/master/good.cl-cst.jpeg)
+![](https://github.com/asmaa122281/compiler-project/blob/master/tree.jpeg)
+
+
+
 
